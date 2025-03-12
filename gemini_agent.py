@@ -9,7 +9,7 @@ API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-fl
 # the endpoint URL of the Gemini API."
 
 # API key required to authenticate API requests.
-API_KEY = "AIzaSyC710U4fKzWZytpLIDyPIRrda3ZFNzVjLI"  
+API_KEY = "---key---"  
 # Read as: "API_KEY is a string that holds the secret key 
 # used to access the API."
 
@@ -101,7 +101,7 @@ if __name__ == "__main__":
             # Read as: "Convert input to lowercase and check if 
             # it is 'exit'."
 
-            print("Exiting.")  
+            print("Exiting...")  
             # Read as: "Display 'Exiting.' message."
 
             break  # Stop the loop.
